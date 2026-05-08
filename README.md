@@ -106,10 +106,10 @@ repo sync
 
 **Example:**
 
-To download the `qli.2.0-rc1` release
+To download the `qli.2.0-rc3` release
 
 ```bash
-repo init -u https://github.com/qualcomm-linux/qcom-manifest -b main -m qli.2.0-rc1.xml
+repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-wrynose -m qli.2.0-rc3.xml
 repo sync
 ```
 
@@ -122,7 +122,7 @@ source setup-environment --machine path/to/kas-machine-config.yml --distro path/
 **Example:**
 
 ```bash
-source setup-environment --machine meta-qcom/ci/qcs9100-ride-sx.yml --distro meta-qcom/ci/qcom-distro-prop-image.yml --kernel meta-qcom/ci/linux-qcom-6.18.yml
+source setup-environment --machine meta-qcom/ci/iq-9075-evk.yml --distro meta-qcom/ci/qcom-distro.yml --kernel meta-qcom/ci/linux-qcom-6.18.yml
 ```
 
 **Note:** Also, see the [script](https://github.com/qualcomm-linux/meta-qcom-releases/blob/main/setup-environment) used to the initialize bitbake environment.
