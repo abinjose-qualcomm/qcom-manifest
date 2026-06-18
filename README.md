@@ -106,10 +106,10 @@ repo sync
 
 **Example:**
 
-To download the `qli.2.0-rc3` release
+To download the `qli-2.0-rc3` release
 
 ```bash
-repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-wrynose -m qli.2.0-rc3.xml
+repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-wrynose -m qli-2.0-rc3.xml
 repo sync
 ```
 
