@@ -126,6 +126,7 @@ source setup-environment --machine meta-qcom/ci/iq-9075-evk.yml --distro meta-qc
 ```
 
 **Note:** Also, see the [script](https://github.com/qualcomm-linux/meta-qcom-releases/blob/main/setup-environment) used to the initialize bitbake environment.
+**Limitation:** If `repo init` is run with `--depth 1`, the setup-environment may fetch extra commits from the remote.
 
 ### Build an image
 
